@@ -1,5 +1,8 @@
 <script lang="ts">
-	let name = 'world';
+	import GTM from "./GTM.svelte";
+
+    let name = 'world';
 </script>
 
-<h1>Hello {name}!</h1>
+<GTM />
+
